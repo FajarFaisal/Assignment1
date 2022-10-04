@@ -1,0 +1,136 @@
+@charset "UTF-8";
+/* CSS Document with Fluid design for desktop/laptops with min-width:960px  */
+/* linear gradient and angle linear and created for body for three types of browsers*/
+
+body {
+    background: yellow;
+    background: -moz-linear-gradient(top, #3D4899 0%, SlateGrey 100%);
+    background: -webkit-linear-gradient(top, #3D4899 0%, SlateGrey 100%);
+    background: -o-linear-gradient(top, #3D4899 0%, SlateGrey 100%);
+    background: linear-gradient(to bottom, #3D4899 0%, SlateGrey 100%);
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* The wrapper ID style is used with a div tag to provide a 960px wide page */
+#wrapper {
+    min-width: 960px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #B4C73C;
+}
+
+/* The right-column ID style is floated right */
+#index-right-column {
+    float: right;
+    width: 75%;
+    height: 600px;
+    background-color: LightGray;
+}
+
+/* The left-column ID style is floated left */
+#index-left-column {
+    float: left;
+    width: 25%;
+    background-color: silver;
+    height: 600px;
+}
+
+#right-column {
+    float: right;
+    width: 85%;
+    height: 600px;
+    background-color: LightGray;
+}
+
+#left-column {
+    float: left;
+    width: 15%;
+    background-color: silver;
+    height: 600px;
+}
+
+/* Defining a style for a set of tags separated by commas applies the style to all tags */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+    margin-left: 15px;
+}
+
+#footer {
+    height: 80px;
+    color: SlateGrey
+}
+
+#banner {
+    margin: 10px;
+    height: 100px;
+    background-color: SlateGrey;
+
+}
+
+/* Defining a style for a set of tags not separated by commas applies the style only to all tags within the preceding tag*/
+#banner h1 {
+    color: white;
+}
+
+#bttnText {
+    color: black
+}
+
+#bttnTextAbout {
+    color: Yellow
+}
+
+#bttnTextHome {
+    color: Yellow
+}
+
+#bttnTextContact {
+    color: Yellow
+}
+
+#bttnTextProgram {
+    color: Yellow
+}
+
+#bttnTextProject {
+    color: Yellow
+}
+
+/* Advanced Web design relies on class or ID styles, never tables */
+.box {
+
+    text-decoration: none;
+    background-color: LightBlue;
+    display: block;
+    width: 10%;
+    float: right;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 3px gray;
+}
+
+/* The following pseudo-class applies to the box class when in a hovered state */
+.box:hover {
+    background-color: gray;
+    opacity: 1;
+}
+
+/* This clear class style terminates float */
+.clear {
+    clear: both;
+}
